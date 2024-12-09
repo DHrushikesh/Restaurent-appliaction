@@ -2,8 +2,8 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,jsx}",
+    './src/**/*.{js,jsx,ts,tsx}', // Only include your source files
+    './public/index.html' // Include any other specific files if necessary
   ],
   theme: {
     extend: {
